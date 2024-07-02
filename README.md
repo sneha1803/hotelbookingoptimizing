@@ -4,6 +4,7 @@ As an industry with a rapid ebb & flow of demand, operating within highly season
 
 Having a thumb on the pulse is not only visionary but vital for a hotel's survival. Achieving this heightened awareness of customer demands and business needs requires routine and rigouorus data anaylsis
 
+### Sources Dataset: https://www.kaggle.com/datasets/thedevastator/hotel-bookings-analysis/data
 For this project, I utilized MySQL for data cleaning and analysis, followed by in-depth exploration and visualization of key business metrics using Power BI.
 
 ![image](https://github.com/sneha1803/hotelbookingoptimizing/assets/139860645/16ea16cc-fa62-48d6-8c70-8d66db5c9688)
