@@ -14,7 +14,7 @@ For this project, I utilized MySQL for data cleaning and analysis, followed by i
 
 -  Targeted incentives for the top 5 agents and companies, such as exclusive offers on hotel services and dining, can stimulate bookings and enhance customer satisfaction.
 
--  With a current occupancy rate of 62% and agents driving 68% of bookings, diversifying market segments could increase occpuancy & spur further growth.
+-  With a current occupancy rate of 62% and agents driving 72% of bookings, diversifying market segments could increase occpuancy & spur further growth.
   
 - When it comes to reservations, cancelled ones tend to linger on waiting lists significantly longer than non-cancelled reservations. On average, cancelled reservations spend approximately 2.3 times more time waiting. We need to streamline booking processes, to avoid such long waits.
   
