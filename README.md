@@ -7,7 +7,7 @@ Having a finger on the pulse is not only visionary but vital for a hotel's survi
 ### Sources Dataset: https://www.kaggle.com/datasets/thedevastator/hotel-bookings-analysis/data
 For this project, I utilized MySQL for data cleaning and analysis, followed by in-depth exploration and visualization of key business metrics using Power BI.
 
-![image](https://github.com/user-attachments/assets/0a4d08d9-ad0c-4ccc-b3e3-605ba6ced3b0)
+![image](https://github.com/user-attachments/assets/92b15120-0151-4737-9840-84b4e7fae0a5)
 
 ## Actionable Insights
 -  The average daily rate varies dynamically based on the booking demand. However, there’s still room for improvement by aligning these curves more closely.
