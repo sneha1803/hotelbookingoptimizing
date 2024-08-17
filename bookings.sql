@@ -21,7 +21,10 @@ UPDATE hotel_bookings SET arrival_date_month_number='12' WHERE arrival_date_mont
 
 -- D A T A   A N A L Y S I S
 
--- A] GENERAL EXPLORATIONS
+-- A] LOST REVENUE DUE TO CANCELLATIONS
+SELECT SUM(adr) AS LossofRev, reservation_status FROM hotel_bookings GROUP BY reservation_status;
+
+-- B] GENERAL EXPLORATIONS
 -- i. What are the Top 10 Companyies by Reveneue?
 SELECT DISTINCT company, SUM(adr) AS Revenue FROM hotel_bookings GROUP BY company ORDER BY Revenue DESC LIMIT 11 ;
 
@@ -29,8 +32,8 @@ SELECT DISTINCT company, SUM(adr) AS Revenue FROM hotel_bookings GROUP BY compan
 SELECT DISTINCT agent, SUM(adr) AS Revenue FROM hotel_bookings GROUP BY agent ORDER BY Revenue DESC LIMIT 11 ;
 
 -- iii. what are the Top Market Segments by Revenue
-SELECT DISTINCT hotel, market_segment, SUM(adr) AS Revenue FROM hotel_bookings
-GROUP BY market_segment,hotel ORDER BY hotel, Revenue DESC;
+SELECT DISTINCT market_segment, SUM(adr) AS Revenue FROM hotel_bookings
+GROUP BY market_segment ORDER BY Revenue DESC;
 
 -- iv. what are the Top 10 Countries by Revenue
 SELECT DISTINCT country, SUM(adr) AS Revenue FROM hotel_bookings GROUP BY country ORDER BY Revenue DESC LIMIT 10;
@@ -40,7 +43,7 @@ SELECT DISTINCT country,market_segment, SUM(adr) AS Revenue FROM hotel_bookings
 GROUP BY country, market_segment ORDER BY Revenue DESC;
 
 
--- B] CANCELLATIONS
+-- C] LEARNING ABOUT CANCELLATIONS
 -- i. Do the Cancellations co-relate to higher room rates?
 SELECT DISTINCT reservation_status, COUNT(*), AVG(adr) FROM hotel_bookings GROUP BY reservation_status;
 
@@ -48,14 +51,15 @@ SELECT DISTINCT reservation_status, COUNT(*), AVG(adr) FROM hotel_bookings GROUP
 SELECT DISTINCT reservation_status, COUNT(*), AVG(days_in_waiting_list) FROM hotel_bookings GROUP BY reservation_status;
 
 -- iii. Do the Cancellations co-relate to room types?
-SELECT DISTINCT  assigned_room_type, reservation_status, COUNT(*) FROM hotel_bookings 
+SELECT DISTINCT  assigned_room_type, reservation_status, COUNT(*) FROM hotel_bookings
 GROUP BY reservation_status, assigned_room_type ORDER BY assigned_room_type,reservation_status ;
+
+SELECT DISTINCT(assigned_room_type), AVG(ADR) FROM hotel_bookings
+GROUP BY assigned_room_type ORDER BY AVG(ADR) DESC;
 
 -- iv. Do the Cancellations co-relate to market segments?
 SELECT DISTINCT  market_segment, reservation_status, COUNT(*) FROM hotel_bookings
 GROUP BY reservation_status, market_segment ORDER BY market_segment,reservation_status ;
-
-
 
 
 
