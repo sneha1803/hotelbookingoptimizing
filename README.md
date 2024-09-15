@@ -21,9 +21,13 @@ For this project, I utilized MySQL for data cleaning and analysis, followed by i
 ![image](https://github.com/user-attachments/assets/d2a68c64-8aeb-476c-89e4-304d08ccadac)
 
 ## Actionable Insights
--  The average daily rate varies dynamically based on the booking demand. However, there’s still room for improvement by aligning these curves more closely.
+-  While city hotels adeptly adjust their prices in response to demand, resort hotels must embrace dynamic pricing strategies to significantly boost their revenue
 
 -  Targeted incentives for the top 5 agents and companies, such as exclusive offers on hotel services and dining, can stimulate bookings and enhance customer satisfaction.
+  
+-  Over the years, we’ve observed that the average daily rate of a room has surged by more than 30%, while occupancy rates have impressively climbed by 36%.
+
+-  The cost difference between a cancelled and a successful room booking is approximately $10 during January, March, May, and November.
 
 -  With a current occupancy rate of 62% and agents driving 72% of bookings, diversifying market segments could increase occpuancy & spur further growth.
   
