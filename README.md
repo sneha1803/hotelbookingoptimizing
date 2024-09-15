@@ -1,4 +1,4 @@
-# Hotel Performance Analysis: Evaluating Current State & Delivering Actionable Insights
+![{0C98E135-E986-4D26-B33E-8F8AD9F33D65}](https://github.com/user-attachments/assets/64c0731d-4c62-4906-9614-bb775af60c6d)# Hotel Performance Analysis: Evaluating Current State & Delivering Actionable Insights
 
 As an industry with a rapid ebb & flow of demand, operating within highly seasonal patterns, flexibility is at the core of the hospitality industry.
 
@@ -21,17 +21,14 @@ For this project, I utilized MySQL for data cleaning and analysis, followed by i
 ![image](https://github.com/user-attachments/assets/d2a68c64-8aeb-476c-89e4-304d08ccadac)
 
 ## Actionable Insights
--  While city hotels adeptly adjust their prices in response to demand, resort hotels must embrace dynamic pricing strategies to significantly boost their revenue
+-  While city hotels adeptly adjust their prices in response to demand, Resort Hotels must embrace dynamic pricing strategies to significantly boost their revenue
+
+-  For our Resort Hotels, given our current occupancy rate of just 23.78%, we have a prime opportunity to position our hotel as the go-to choice for last-minute bookings, especially considering our tourist-friendly locations
 
 -  Targeted incentives for the top 5 agents and companies, such as exclusive offers on hotel services and dining, can stimulate bookings and enhance customer satisfaction.
-  
--  Over the years, we’ve observed that the average daily rate of a room has surged by more than 30%, while occupancy rates have impressively climbed by 36%.
 
--  The cost difference between a cancelled and a successful room booking is approximately $10 during January, March, May, and November.
-
--  With a current occupancy rate of 62% and agents driving 72% of bookings, diversifying market segments could increase occpuancy & spur further growth.
+-  With a current occupancy rate of 62% and agents driving 72% of revenue, diversifying market segments could increase occpuancy & spur further growth.
   
-- When it comes to reservations, cancelled ones tend to linger on waiting lists significantly longer than non-cancelled reservations. On average, cancelled reservations spend approximately 2.3 times more time waiting. We need to streamline booking processes, to avoid such long waits.
+- In city hotels, cancelled reservations tend to remain on waiting lists much longer than those that are not cancelled. On average, they spend about 2.3 times more time waiting. To reduce these extended wait times, we need to streamline the booking processes in city hotels.
   
-- Among the various room types, Room Type A stands out with a cancellation rate of 44%. Out of the 74,000 bookings made for this room type, approximately 32,000 were cancelled
- 
+- At City Hotel, Room Type A has an exceptionally high cancellation rate of 87.4%.  Out of the 30K bookings made, over 26K were cancelled. 
