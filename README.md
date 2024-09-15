@@ -1,4 +1,4 @@
-![{0C98E135-E986-4D26-B33E-8F8AD9F33D65}](https://github.com/user-attachments/assets/64c0731d-4c62-4906-9614-bb775af60c6d)# Hotel Performance Analysis: Evaluating Current State & Delivering Actionable Insights
+# Hotel Performance Analysis: Evaluating Current State & Delivering Actionable Insights
 
 As an industry with a rapid ebb & flow of demand, operating within highly seasonal patterns, flexibility is at the core of the hospitality industry.
 
