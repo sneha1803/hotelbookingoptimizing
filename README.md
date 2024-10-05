@@ -1,8 +1,9 @@
 # Hotel Performance Analysis: Evaluating Current State & Delivering Actionable Insights
 
-As an industry with a rapid ebb & flow of demand, operating within highly seasonal patterns, flexibility is at the core of the hospitality industry.
+As an industry with a rapid ebb & flow of demand and operating within highly seasonal patterns, flexibility is at the core of the hospitality industry.
 
-Having a finger on the pulse is not only visionary but vital for a hotel's survival. Achieving this heightened awareness of customer demands & business needs requires routine & rigouorus data anaylsis
+Staying attuned to customer demands and business needs is not just visionary but vital for a hotel’s survival. Achieving this level of awareness necessitates regular and rigorous data analysis
+
 
 ## The Challenge
 Apart from our primary challenge of optimizing revenue and other key performance metrics, a significant secondary challenge is the revenue loss due to cancellations, which amounts to ₹4.5 million. This issue is critical as it represents more than half of our total revenue, underscoring the need for immediate attention and strategic solutions.
