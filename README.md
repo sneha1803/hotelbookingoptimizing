@@ -19,7 +19,7 @@ Apart from our primary challenge of optimizing revenue and other key performance
 For this project, I utilized MySQL for data cleaning and analysis, followed by in-depth exploration and visualization of key business metrics using Power BI.
 
 ## Performance Dashboard
-![{BE69F401-5B9E-43CC-AF19-B2C0D41B313B}](https://github.com/user-attachments/assets/6de2cdb6-1880-4498-b2a4-b4405de29baa)
+![{F61CE16B-D279-4039-AEA6-EA269E119FBD}](https://github.com/user-attachments/assets/47a7a004-3d5c-49d2-a424-204725d5d2f9)
 
 
 ## Actionable Insights
