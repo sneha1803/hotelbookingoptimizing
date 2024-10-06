@@ -19,10 +19,11 @@ Apart from our primary challenge of optimizing revenue and other key performance
 For this project, I utilized MySQL for data cleaning and analysis, followed by in-depth exploration and visualization of key business metrics using Power BI.
 
 ## Performance Dashboard
-![image](https://github.com/user-attachments/assets/d2a68c64-8aeb-476c-89e4-304d08ccadac)
+![{BE69F401-5B9E-43CC-AF19-B2C0D41B313B}](https://github.com/user-attachments/assets/6de2cdb6-1880-4498-b2a4-b4405de29baa)
+
 
 ## Actionable Insights
--  While city hotels adeptly adjust their prices in response to demand, Resort Hotels must embrace dynamic pricing strategies to significantly boost their revenue
+-  In Resort hotels, the cancellation booking trend aligns closely with the average daily rate curve. Notably, the average price of a cancelled room is 17.3% higher than that of a room that remains booked. This indicates that to reduce cancellations, we should consider lowering prices.
 
 -  For our Resort Hotels, given our current occupancy rate of just 23.78%, we have a prime opportunity to position our hotel as the go-to choice for last-minute bookings, especially considering our tourist-friendly locations
 
